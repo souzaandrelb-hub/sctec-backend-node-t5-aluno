@@ -1,4 +1,4 @@
-class carro {
+class Carro {
     constructor(marca, modelo, ano, preco) {
         this.marca = marca;
         this.modelo = modelo;
@@ -7,8 +7,8 @@ class carro {
     }
 }
 
-const carro1 = new carro("Peugeot", "206", 2005, 15000);
-const carro2 = new carro("Citroen", "C3", 2013, 25000);
+const carro1 = new Carro("Peugeot", "206", 2005, 15000);
+const carro2 = new Carro("Citroen", "C3", 2013, 25000);
 
 console.log(carro1.marca, carro1.modelo);
 console.log(carro2.marca, carro2.modelo);
